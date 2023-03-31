@@ -13,7 +13,7 @@ var connection = mysql.createConnection({
     port: 3307 // 명시적으로 3307번 포트를 사용
   });
   
-
+  
 connection.connect();
 
 app.use(bodyParser.urlencoded({ extended: false }));

@@ -24,7 +24,7 @@ const Nav = () => {
       ...inputs,
       [name]: value
     });
-  };
+  };  
 
 
 // 회원가입 폼에서 Submit 버튼 클릭 시 서버로 데이터를 전송
